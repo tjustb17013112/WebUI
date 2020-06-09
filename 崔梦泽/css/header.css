@@ -12,11 +12,17 @@
 }
 /* end */
 /* 导航条 start */
+.nav-group{
+    overflow: hidden;
+    display: inline-block;
+}
 .nav-group li{
     float: left;
     margin-left: 42px;
     margin-right: 10px;
 }
+
+
 /* end */
 /* 搜索框 start */
 
@@ -38,4 +44,5 @@
     /* left: 1200px; */
 }
 /* end */
+
 /* end */

@@ -5,10 +5,10 @@
     list-style-type: none;
 }
 
-a,
+/* a,
 img {
     border: 0;
-}
+} */
 
 body {
     line-height: 2em;
@@ -47,7 +47,7 @@ a:hover {
     z-index: 9999;
     position: relative;
     width: 190px;
-    margin: 40px 0 0 120px;
+    margin: 20px 0 0 120px;
 }
 
 .hc_lnav .allbtn {
@@ -80,18 +80,18 @@ a:hover {
     text-decoration: none;
     }
 
-.hc_lnav .allbtn h2 i {}
+/* .hc_lnav .allbtn h2 i {}
 
-.hc_lnav .allbtn h2 strong {}
+.hc_lnav .allbtn h2 strong {} */
 
 .hc_lnav .allbtn ul {
     z-index: 99999;
     position: absolute;
-    background-color: #1e9494;
+    background-color:rgb(97, 168, 35);
     width: 190px;
     display: block;/*可以设置菜单是显示还是隐藏   display：none；为隐藏*/
     height: 426px;
-    top: px;
+    top: 0px;
     left: -80px
 }
 
@@ -104,14 +104,14 @@ body.hc_list .hc_lnav .allbtn ul {
 }
 
 .hc_lnav .allbtn ul li {
-    padding-bottom: 7px;
+     padding-bottom: 0px;/*二级菜单最下面距离 */
     zoom: 1;
     clear: both;
     cursor: default
 }
 
 .hc_lnav .allbtn ul li .tx {
-    background-image: url(../images/header/header_bg1.png);
+    /* background-image: url(../images/header/header_bg1.png); */
     line-height: 35px;
     background-color: #559b0d;
     padding-left: 10px;
@@ -143,10 +143,10 @@ body.hc_list .hc_lnav .allbtn ul {
     text-decoration: none
 }
 
-.hc_lnav .allbtn ul li.a1 .tx a i {
+/* .hc_lnav .allbtn ul li.a1 .tx a i {
     background-image: url(../images/header_ico1.png)
-}
-
+} */
+/* 
 .hc_lnav .allbtn ul li.a2 .tx a i {
     background-image: url(../images/header_ico2.png)
 }
@@ -157,7 +157,7 @@ body.hc_list .hc_lnav .allbtn ul {
 
 .hc_lnav .allbtn ul li.a4 .tx a i {
     background-image: url(../images/header_ico4.png)
-}
+} */
 
 .hc_lnav .allbtn ul li dl {
     zoom: 1;

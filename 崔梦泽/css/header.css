@@ -1,13 +1,13 @@
 /* 导航  start*/
 .nav{
     /* background-color: #ccc; */
-    height: 80px;
+    height: 150px;
     line-height: 120px;
 }
 /* logo start */
 .logo a{
     display: block;
-    height: 96px;
+    height: 120px;
     width: 320px;
 }
 /* end */

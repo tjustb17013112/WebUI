@@ -1,0 +1,48 @@
+/* 导航  start*/
+.nav{
+    /* background-color: #ccc; */
+    height: 120px;
+    line-height: 120px;
+}
+/* logo start */
+.logo a{
+    display: block;
+    height: 96px;
+    width: 320px;
+}
+/* end */
+/* 导航条 start */
+.nav-group{
+    overflow: hidden;
+    display: inline-block;
+}
+.nav-group li{
+    float: left;
+    margin-left: 42px;
+    margin-right: 10px;
+}
+
+
+/* end */
+/* 搜索框 start */
+
+
+/* end */
+/* login start */
+
+.login li{
+    float: left;
+    /* position: relative; */
+}
+.login .line{
+    width: 1px;
+    height: 18px;
+    background-color: #35aad8;
+    margin: 52px 18px 0;
+    /* position: absolute; */
+    /* top:46px; */
+    /* left: 1200px; */
+}
+/* end */
+
+/* end */

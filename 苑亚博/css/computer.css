@@ -1,31 +1,78 @@
-.v{
-    width: 570px;
-    height: 360px;
-    position: relative;
+main{
+    background-color: #f5f5f5;
+}
+.first{
+    /* margin-top: 45px; */
+    background-color: #f5f5f5;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 45px 0;
 }
 .under{
     border: 1px;
     width: 600ox;
 }
-.jieshao{
-    position: relative;
-    float: right;
-    left: -200px;
-    top: -380px;
+.v{
+    width: 570px;
+    height: 290px;
 }
- .kaike{
-     padding: 20px 20px 20px 20px;
-    border: 1px solid black;
-    top: 40px;
-    position: relative;
-    background-color: rgb(196, 195, 195);
-  
-    
+.verb{
+    width: 600px;
+    height: 290px;
+    background-color: #ccc;
+    padding-left: 16px;
 }
-.canjia{
-    position: relative;
-    top: 100px; 
-    COLOR: rgb(241, 18, 18);
-    size: 300px;
 
+.time{
+    height: 100px;
+    padding-top: 4px;
+    padding-left: 32px;
+    /* background-color: rgb(196, 195, 195); */
+} 
+.join{
+    margin-top: 32px;
+}
+.second{
+    margin-top: 45px;
+    /* margin-bottom: 80px; */
+    background-color: #f5f5f5;
+}
+.detail{
+    width: 900px;
+    padding: 20px 40px;
+    background-color: #fff;
+}
+.smallnav{
+    /* height: 50px;
+    line-height: 50px; */
+}
+.smallnav a{
+    display: block;
+    height: 40px;
+    width: 80px;
+    line-height: 40px;
+}
+.smallnav a:hover{
+    border-bottom: 10px solid green;
+}
+.detail>p{
+    background-color: #f5f5f5;
+}
+.course li{
+    padding: 16px 0;
+}
+.about{
+    height: 240px;
+    width: 270px;
+    background-color: #fff;
+    padding: 16px 32px;
+    /* margin-left: 20px; */
+}
+.school{
+    height: 100px;
+    border-bottom: 1px solid black;
+}
+.teacher{
+    padding: 18px 0;
+    
 }

@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+img{
+    /* 清除默认IE6边框 */
+    border: none;
+    /* 清除图片底下默认缝隙 */
+    vertical-align: middle;
+}
+input{
+    border: 0;
+    /* 清除默认轮廓线 */
+    outline: none;
+}
+h1,h2,h3,h4,h5,h6{
+    font-weight: normal;
+}
+body{
+    font: 12px arial,'microsoft yahei';
+    color: #666666;
+}
+.w{
+    width: 1200px;
+    margin: 0 auto;
+}
+.fl{
+    float: left;
+}
+.fr{
+    float: right;
+}
+i,em{
+    font-style: normal;
+}
+
+a{
+    color: #666666;
+}
+a:hover{
+    color: #c81623;
+}
+.red{
+    color: #c81623;
+}
+.tc{
+    text-align: center;
+}
+.clearfix::after{
+    content: '';
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+}
+.clearfix{
+    *zoom: 1;
+}
+.f12{
+    font-size: 12px;
+}
+.f14{
+    font-size: 14px;
+}
+.f16{
+    font-size: 16px;
+}
+.f18{
+    font-size: 18px;
+}
+.f20{
+    font-size: 20px;
+}

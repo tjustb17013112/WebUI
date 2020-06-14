@@ -1,0 +1,140 @@
+/*主体部分*/
+.registerarea {
+	width: 1198px;
+	height: 520px;
+	border: 1px solid #e0e0e0;
+	margin: 20px 0;
+}
+.registerarea h3 {
+	height: 40px;
+	line-height: 40px;
+	background-color: #ececec;
+	padding: 0 10px;
+	font-weight: 400;
+}
+.registerarea form {
+	width: 600px;
+	margin: 54px auto 0;
+}
+.registerarea li {
+	margin-bottom: 20px;
+}
+.registerarea input {
+	width: 238px;
+	height: 34px;
+	border: 1px solid #999;
+	margin-right: 12px;
+}
+.registerarea label {
+	display: inline-block;
+	width: 90px;
+	text-align: right;
+}
+.default {
+	color: #ccc;
+}
+.success {
+	color: yellowgreen;
+}
+.safe {
+	padding-left: 166px;
+}
+.safe em {
+	padding: 0 10px;
+	color: #fff;
+}
+.short {
+	background-color: #df1013;
+}
+.middle {
+	background-color:#3fb83f;
+}
+.strong {
+	background-color: #f79200;
+}
+input.check {
+	position: relative;
+	top: 3px;
+	width: 14px;
+	height: 14px;
+	margin-left: 120px;
+	/*vertical-align: middle;*/
+}
+.reg-btn {
+	border: 0 none;
+	width: 200px;
+	height: 34px;
+	line-height: 34px;
+	text-align: center;
+	color: #fff;
+	margin-left: 100px;
+	background-color: #c81822;
+}
+/*主体部分结束*/
+/*底部开始*/
+.footer {
+	height: 417px;
+	background-color: skyblue;
+}
+.slogan {
+	padding: 30px 0 30px 36px;
+	border-bottom: 1px solid #ededed;
+}
+.slogan li {
+	width: 163px;
+	height: 50px;
+	float: left;
+	margin-right: 60px;
+}
+.slogan li .fl {
+	width: 50px;
+	height: 50px;
+	background: url(../img/icons.png);
+}
+.slogan .slogan-icon1 .fl {
+	background-position: -253px -2px;
+}
+.slogan .slogan-icon2 .fl {
+	background-position: -254px -54px;
+}
+.slogan .slogan-icon3 .fl {
+	background-position: -256px -106px;
+}
+.slogan .slogan-icon4 .fl {
+	background-position: -257px -156px;
+}
+.slogan .slogan-icon5 .fl {
+	background-position: -257px -208px;
+}
+.slogan h6 {
+	font-size: 14px;
+	margin-top: 8px;
+}
+.help {
+	height: 165px;
+	border-bottom: 1px solid #ededed;
+	padding: 22px 70px 0 50px;
+}
+.help dl {
+	float: left;
+	width: 198px;
+}
+.help dt, .help h6 {
+	height: 30px;
+	font-size: 16px;
+	font-weight: 400;
+}
+.help p {
+	margin-top: 8px;
+}
+.copyright {
+	padding-top: 20px;
+}
+.copyright span {
+	margin: 0 16px;
+	color: #999;
+}
+.copyright-nav {
+	margin-bottom: 16px;
+}
+/*底部结束*/
